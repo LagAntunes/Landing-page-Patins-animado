@@ -1,0 +1,29 @@
+@import "./variables.css";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+button {
+  font: 500 var(--text-base) / 1.5 var(--ff-montserrat);
+}
+
+h1,
+h2 {
+  font-family: var(--ff-syne);
+}
+
+h1 {
+  font-size: var(--text-xl);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--text-lg);
+  line-height: 1.2;
+}

@@ -1,0 +1,20 @@
+:root {
+  --snitap-sun: #ffcd1e;
+  --snitap-sky-mid: #06b6d4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f472b6;
+  --snitap-leaf-mid: #16a34a;
+
+  --text: #000000;
+  --highlights: #000000;
+  --background: #fafafa;
+
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-syne: "Syne", sans-serif;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
+}

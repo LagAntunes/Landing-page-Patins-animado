@@ -1,2 +1,6 @@
-@import "./global.css";
-@import "./variables.css";
+/* Gerais */
+@import url("./global.css");
+@import url("./variables.css");
+
+/* Componentes */
+@import url("./components/styles.css");

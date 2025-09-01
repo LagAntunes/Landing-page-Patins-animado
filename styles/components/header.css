@@ -4,28 +4,29 @@ header {
   max-width: 80rem;
   width: 100%;
   padding: 1.25rem 2rem;
+  margin-inline: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  img {
+  & img {
     width: 2rem;
     height: 2rem;
     transition: transform 0.2s ease-in-out;
   }
 
-  img[src*="logo"]:hover {
+  & img[src*="logo"]:hover {
     transform: rotate(90deg);
   }
 
-  img[src*="bag"]:hover {
+  & img[src*="bag"]:hover {
     transform: rotate(-30deg);
   }
 
-  a {
+  & a {
     position: relative;
 
-    span {
+    & span {
       font: 500 0.75rem/1.3 var(--ff-montserrat);
       position: absolute;
       top: -0.5rem;
